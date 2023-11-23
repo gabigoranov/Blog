@@ -1,0 +1,7 @@
+﻿@model List<PostViewModel>
+<div>
+    @foreach(PostViewModel post in Model)
+    {
+        <partial name="./Partial/_PostPartialView.cshtml" model="@post"/>
+    }
+</div>
