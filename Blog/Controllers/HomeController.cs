@@ -23,6 +23,12 @@ namespace Blog.Controllers
 
         [HttpGet]
         [AllowAnonymous]
+        public IActionResult Landing()
+        {
+            return View();
+        }
+
+        [HttpGet]
         public async Task<IActionResult> Index()
         {
             return View(await postService.GetAllAsync());
