@@ -20,6 +20,12 @@ header {
     color: #FAFAFA;
     align-items: center;
 }
+#login-bar li a{
+    color: #FFFFFF;
+    text-decoration: none;
+
+}
+
 
 #logo {
     text-shadow: 1.5px 2px 1px rgba(0, 0, 0, 0.25);
@@ -40,8 +46,8 @@ header {
     margin: 0;
 }
 
-#login-bar li a{
-    color: #FFFFFF;
+#nav a{
+    color: #FAFAFA;
     text-decoration: none;
 
 }

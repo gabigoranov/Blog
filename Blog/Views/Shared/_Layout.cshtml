@@ -3,13 +3,14 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="/images/favicon.png">
     <title>@ViewData["Title"] - Blog</title>
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
 </head>
 <body>
     <header>
         <nav id="nav">
-            <h1 id="logo">Orange Bloggs</h1>
+            <a asp-action="Landing" asp-controller="Home"><h1 id="logo">Orange Bloggs</h1></a>
             <partial name="_LoginPartial" />
         </nav>
     </header>

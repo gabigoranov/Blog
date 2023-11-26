@@ -34,5 +34,7 @@ namespace Blog.Controllers
             return View(await postService.GetAllAsync());
         }
 
+        
+
     }
 }
