@@ -3,15 +3,21 @@
 }
 
 <section id="hero">
-    <img class="bg-image leaf-1" src="~/images/BgLeaf1.png" />
-    <img class="bg-image leaf-2" src="~/images/BgLeaf1.png" />
-    <img class="bg-image leaf-3" src="~/images/BgLeaf1.png" />
-    <img class="bg-image orange-1" src="~/images/BgOrange1.png"/>
-    <img class="bg-image orange-2" src="~/images/BgOrange2.png"/>
-    <div id="hero-text-container">
-        <h2 class="secondary-title">Read New Articles Every</h2>
-        <h1 class="title">Friday</h1>
-        <button class="orange-button">See More</button>
+    <div id="hero-text">
+        <div id="text-container">
+            <h2>Read New Articles Every</h2>
+            <h1>FRIDAY</h1>
+        </div>
+        <button><a href="#about">See more</a></button>
     </div>
     <img src="~/images/hero-img.png"/>
+</section>
+<section id="about">
+    <img src="~/images/About-SideImage.png" />
+    <div id="about-container">
+        <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+        </p>
+        <button><a asp-controller="User" asp-action="Register">Sign up</a></button>
+    </div>
 </section>

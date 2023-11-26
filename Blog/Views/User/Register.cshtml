@@ -4,7 +4,7 @@
     ViewData["Title"] = "Register";
 }
 
-<div>
+<section id="register">
     <form asp-action="Register" method="post">
         <div>
             <input asp-for="@Model.UserName" autocomplete="username" placeholder="Username" aria-required="true" />
@@ -20,4 +20,6 @@
         </div>
         <button type="submit">Register</button>
     </form>
-</div>
+    <hr />
+    <img src="~/images/register-side.png"/>
+</section>
